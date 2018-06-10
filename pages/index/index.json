@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "disableScroll": true,
+  "usingComponents": {
+    "swipertd": "../../components/swiper3D",
+    "swipertd-item": "../../components/swiper3D-item"
+  }
+}

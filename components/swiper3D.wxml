@@ -1,0 +1,19 @@
+<view class='stage {{class}}'>
+  <view wx:if='{{arrow && (direction === "all" || direction === "x")}}' class='arrow left' bindtap='onArrowLeft'>
+    <image src='{{iconArrow}}' />
+  </view>
+  <view wx:if='{{arrow && (direction === "all" || direction === "y")}}' class='arrow top' bindtap='onArrowTop'>
+    <image src='{{iconArrow}}' />
+  </view>
+
+  <view class='wrapper' style='transform: rotateY({{rotateY}}deg) rotateX({{rotateX}}deg)' bindtouchstart='onTouch' bindtouchmove='onTouch' bindtouchend='onTouch' bindtouchcancel='onTouch'>
+    <slot></slot>
+  </view>
+
+  <view wx:if='{{arrow && (direction === "all" || direction === "x")}}' class='arrow right' bindtap='onArrowRight'>
+    <image src='{{iconArrow}}' />
+  </view>
+  <view wx:if='{{arrow && (direction === "all" || direction === "y")}}' class='arrow bottom' bindtap='onArrowBottom'>
+    <image src='{{iconArrow}}' />
+  </view>
+</view>

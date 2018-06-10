@@ -1,0 +1,3 @@
+<view class="side {{side}} my-class">
+  <slot></slot>
+</view>
