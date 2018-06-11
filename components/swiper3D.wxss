@@ -1,7 +1,5 @@
 .stage {
   perspective: 4000rpx;
-  width: 100vw;
-  height: 750rpx;
   display: flex;
   justify-content: center;
   align-items: center;

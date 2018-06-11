@@ -42,11 +42,16 @@ Component({
       type: Boolean,
       value: true
     },
-    // 是否始终正立
-    // stand: {
-    //   type: Boolean,
-    //   value: false
-    // }
+    // 宽
+    width: {
+      type: String,
+      value: '100vw'
+    },
+    // 高
+    height: {
+      type: String,
+      value: '750rpx'
+    }
   },
 
   /**
