@@ -1,17 +1,11 @@
 <view class='container'>
 
-  <swipertd>
+  <swipertd direction='y'>
     <swipertd-item side='front' my-class='item blue'>
       <view>前</view>
     </swipertd-item>
-    <swipertd-item side='right' my-class='item coral'>
-      <view>右</view>
-    </swipertd-item>
     <swipertd-item side='back' my-class='item yellow'>
       <view>后</view>
-    </swipertd-item>
-    <swipertd-item side='left' my-class='item cyan'>
-      <view>左</view>
     </swipertd-item>
     <swipertd-item side='top' my-class='item red'>
       <view>上</view>

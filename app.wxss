@@ -1,0 +1,35 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  background-color: lightskyblue;
+}
+
+.yellow {
+  background-color: lightgoldenrodyellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.coral {
+  background-color: lightcoral;
+}
+
+.cyan {
+  background-color: lightcyan;
+}

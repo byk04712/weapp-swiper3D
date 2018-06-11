@@ -31,6 +31,9 @@ Component({
       value: 'front',
       observer: function (newVal, oldVal) {
         console.log('property side ', newVal, oldVal);
+        if (['front', 'back', 'left', 'right', 'top', 'bottom'].indexOf(newVal) === -1) {
+          throw new Error('property side must be front, back, left, right, top or bottom');
+        }
       }
     }
   },

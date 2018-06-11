@@ -10,7 +10,6 @@
 .side.left {
   transform: rotateY(-90deg);
   transform-origin: left;
-  background-color: lightcyan;
 }
 
 /*右*/
@@ -18,7 +17,6 @@
 .side.right {
   transform: rotateY(90deg);
   transform-origin: right;
-  background-color: lightcoral;
 }
 
 /*前*/
@@ -26,7 +24,6 @@
 .side.front {
   z-index: 2;
   transform: translateZ(400rpx);
-  background-color: lightskyblue;
 }
 
 /*后*/
@@ -34,7 +31,6 @@
 .side.back {
   z-index: 1;
   transform: rotateY(180deg);
-  background-color: lightgoldenrodyellow;
 }
 
 /*上*/
@@ -42,7 +38,6 @@
 .side.top {
   transform: rotateX(90deg);
   transform-origin: top;
-  background-color: red;
 }
 
 /*下*/
@@ -50,5 +45,4 @@
 .side.bottom {
   transform: rotateX(270deg);
   transform-origin: bottom;
-  background-color: lightgray;
 }

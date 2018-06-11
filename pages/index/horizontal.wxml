@@ -1,6 +1,6 @@
 <view class='container'>
 
-  <swipertd>
+  <swipertd direction='x'>
     <swipertd-item side='front' my-class='item blue'>
       <view>前</view>
     </swipertd-item>
@@ -12,12 +12,6 @@
     </swipertd-item>
     <swipertd-item side='left' my-class='item cyan'>
       <view>左</view>
-    </swipertd-item>
-    <swipertd-item side='top' my-class='item red'>
-      <view>上</view>
-    </swipertd-item>
-    <swipertd-item side='bottom' my-class='item gray'>
-      <view>下</view>
     </swipertd-item>
   </swipertd>
 
